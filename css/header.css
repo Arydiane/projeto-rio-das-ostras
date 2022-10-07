@@ -1,0 +1,35 @@
+.container__header {
+    grid-area: header;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header__navbar {
+    display: none;
+}
+
+.header__navbar--ativo {
+    display: block;
+    position: absolute;
+    top: 10%;
+    width: 100vw;
+}
+
+.nav__list {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+}
+
+.nav__item {
+    padding: 1rem;
+}
+
+.header__title {
+    font-size: 1,5rem;
+    font-weight: 700;
+    color: var(--title-menu);
+}
