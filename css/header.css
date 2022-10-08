@@ -1,5 +1,4 @@
 .container__header {
-    grid-area: header;
     display: flex;
     flex-direction: row;
     justify-content: space-around;

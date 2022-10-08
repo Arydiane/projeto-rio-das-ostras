@@ -1,0 +1,55 @@
+.section__beaches {
+    height: 19%;
+    padding: 0.5rem;
+}
+
+.section__beaches--show-all {
+    height: 100%;
+}
+
+.section__title {
+    margin: 1rem 0;
+    border-bottom: 0.2rem solid var(--secondary-color); 
+}
+
+.title {
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-transform: uppercase;    
+}
+
+.beaches__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    height: 100%;
+    overflow: hidden;
+}
+
+.beach__container {
+    width: 50%;
+    padding: 0.2rem;
+}
+
+.beach__image {
+    width: 100%;
+}
+
+.beach__legend {
+    color: var(--title-menu);
+    text-align: center;
+}
+
+.beaches__button--show-all {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    display: block;
+    margin: 0.5rem auto;
+    padding: 1rem 0;
+    width: 50%;
+}
+
+.beaches__button--show-all:hover {
+    background-color: var(--title-menu);
+}

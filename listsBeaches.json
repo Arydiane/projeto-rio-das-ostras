@@ -1,0 +1,62 @@
+[
+    {
+        "nome": "Praia do Centro",
+        "imagem": "praia-centro.jpg"
+    },
+    {
+        "nome": "Praia do Cemitério",
+        "imagem": "praia-cemiterio.jpg"
+    },
+    {
+        "nome": "Praia de Costazul",
+        "imagem": "praia-costazul.jpg"
+    },
+    {
+        "nome": "Praia de Abricó",
+        "imagem": "praia-abrico.jpg"
+    },
+    {
+        "nome": "Praia das Tartaguras",
+        "imagem": "praia-tartaruga.jpg"
+    },
+    {
+        "nome": "Praia do Bosque",
+        "imagem": "praia-bosque.jpg"
+    },
+    {
+        "nome": "Praia das Pedrinhas",
+        "imagem": "praia-pedrinhas.jpg"
+    },
+    {
+        "nome": "Praia da Boca da Barra",
+        "imagem": "praia-boca-da-barra.jpg"
+    },
+    {
+        "nome": "Praia da Joana",
+        "imagem": "praia-joana.jpg"
+    },
+    {
+        "nome": "Praia Virgem",
+        "imagem": "praia-virgem.jpg"
+    },
+    {
+        "nome": "Praia das Areais Negras",
+        "imagem": "praia-areias-negras.jpg"
+    },
+    {
+        "nome": "Praia do Remanso",
+        "imagem": "praia-remanso.jpg"
+    },
+    {
+        "nome": "Praia de Mar do Norte",
+        "imagem": "praia-mar-norte.jpg"
+    },
+    {
+        "nome": "Praia da Enseada das Gaivotas",
+        "imagem": "praia-enseada-gaivotas.jpg"
+    },
+    {
+        "nome": "Praia de Itapebussus",
+        "imagem": "praia-itapebussus.jpg"
+    }
+]

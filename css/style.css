@@ -1,5 +1,6 @@
 @import "./header.css";
 @import "./banner.css";
+@import "./section-beaches.css";
 
 :root {
     --bg-color: #C7D1D9;
@@ -8,6 +9,10 @@
     --title-menu: #025940;
 
     --font: 'Inter', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 .dark-mode {
@@ -29,5 +34,17 @@ body {
         "header"
         "main"
         "footer";
+}
+
+header {
+    grid-area: header;
+}
+
+main {
+    grid-area: main;
+}
+
+footer {
+    grid-area: footer;
 }
 
