@@ -1,11 +1,10 @@
 .section__beaches {
-    height: 19%;
     padding: 0.5rem;
 }
 
 .section__beaches--show-all {
     height: 100%;
-}
+} 
 
 .section__title {
     margin: 1rem 0;
@@ -21,10 +20,10 @@
 .beaches__container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
+    flex-wrap: wrap; 
 
-    height: 100%;
-    overflow: hidden;
+    height: 19%;
+    overflow-y: scroll;
 }
 
 .beach__container {

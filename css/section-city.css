@@ -1,0 +1,27 @@
+.section__container {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
+    padding: 0.5rem;
+    text-align: justify;
+}
+
+.section__city p {
+    padding-top: 1rem;
+}
+
+.section__city blockquote {
+    padding: 0.5rem 0 ;
+}
+
+.section__city blockquote::before{
+    content: '❝';
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+.section__city blockquote::after {
+    content: '❞';
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
