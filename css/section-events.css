@@ -1,0 +1,46 @@
+.section__events {
+    padding: 0.5rem;
+}
+.events__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.event__card {
+    color: var(--bg-color);
+    background-color: var(--primary-color);
+    padding: 1rem 1rem;
+    text-align: center;
+}
+
+.event__title {
+    color: var(--title-card);
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-bottom: 1rem;
+}
+
+.event__text {
+    text-align: justify;
+    padding-bottom: 1rem;
+}
+
+.event__icon {
+    color: var(--secondary-color);
+    font-size: 1.5rem;
+}
+
+.event__link:hover .event__icon {
+    color: var(--bg-color);
+}
+
+.event__card--featured, 
+.event__card--featured .event__title, 
+.event__card--featured .event__icon {
+    background-color: var(--secondary-color);
+    color: var(--text-card-featured);
+}
+

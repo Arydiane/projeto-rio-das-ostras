@@ -2,13 +2,15 @@
 @import "./banner.css";
 @import "./section-beaches.css";
 @import "./section-city.css";
+@import "./section-events.css";
 
 :root {
     --bg-color: #C7D1D9;
     --primary-color: #132F40;
     --secondary-color: #1AD9A3;
     --title-menu: #025940;
-
+    --title-card: #1AD9A3;
+    --text-card-featured: #132F40;
     --font: 'Inter', sans-serif;
 }
 
@@ -20,6 +22,7 @@
     --bg-color: #132F40;
     --primary-color:#C7D1D9;
     --title-menu: #1AD9A3;
+    --title-card: #132F40;
 }
 
 body {
@@ -27,6 +30,7 @@ body {
     color: var(--primary-color);
     font-family: var(--font);
     font-weight: 400;
+    line-height: normal;
     height: 100vh;
 
     display: grid;
