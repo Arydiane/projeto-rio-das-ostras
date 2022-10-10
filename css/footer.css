@@ -10,3 +10,11 @@
     color: var(--title-card);
     text-align: center;
 }
+
+.footer__link {
+    text-decoration: underline;
+}
+
+.footer__link:hover {
+    font-weight: 700;
+}
