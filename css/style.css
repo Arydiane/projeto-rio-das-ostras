@@ -3,6 +3,7 @@
 @import "./section-beaches.css";
 @import "./section-city.css";
 @import "./section-events.css";
+@import "./section-localization.css";
 
 :root {
     --bg-color: #C7D1D9;
