@@ -4,6 +4,7 @@
 @import "./section-city.css";
 @import "./section-events.css";
 @import "./section-localization.css";
+@import "./footer.css";
 
 :root {
     --bg-color: #C7D1D9;
