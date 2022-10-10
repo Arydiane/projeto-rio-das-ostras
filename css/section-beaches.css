@@ -38,6 +38,7 @@
 .beach__legend {
     color: var(--title-menu);
     text-align: center;
+    font-size: 0.875rem;
 }
 
 .beaches__button--show-all {
