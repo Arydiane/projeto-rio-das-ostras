@@ -1,3 +1,17 @@
 .banner__image {
     width: 100%;
 }
+
+@media screen and (min-width: 768px) {
+
+    .section__banner {
+        height: 15%;
+    }
+
+    .banner__image {
+        height: 100%;
+        width: 100vw;
+        object-fit: cover;
+        object-position: center;
+    }
+}

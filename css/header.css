@@ -7,11 +7,15 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
+.header__navbar--menu-hamburguer {
+    display: none;
+}
+
 .header__navbar {
     display: none;
 }
 
-.header__navbar--ativo {
+.header__menu-hamburguer--ativo {
     display: block;
     position: absolute;
     top: 10%;
@@ -32,4 +36,32 @@
     font-size: 1,5rem;
     font-weight: 700;
     color: var(--title-menu);
+}
+
+@media screen and (min-width: 768px) {
+    
+    .header__menu-hamburger {
+        display: none;
+    }
+    
+    .header__navbar {
+        display: block
+    }
+
+    .nav__list {
+        display: flex;
+        flex-direction: row;
+        height: 100%;
+        background-color: transparent;
+        color: var(--primary-color);
+    } 
+
+    .nav__item {
+        padding: 0.5rem;
+    }
+
+    .nav__link:hover {
+        font-weight: 700;
+    }
+
 }

@@ -1,6 +1,7 @@
 .section__events {
     padding: 0.5rem;
 }
+
 .events__container {
     display: flex;
     flex-direction: column;
@@ -48,3 +49,17 @@
     color: var(--text-card-featured);
 }
 
+@media screen and (min-width: 768px) {
+
+    .section__events {
+        padding: 2rem;
+    }
+
+    .events__container {
+        flex-direction: row;
+    }
+
+    .event__card{
+        width: 33%;
+    }
+}

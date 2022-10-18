@@ -54,3 +54,10 @@
 .beaches__button--show-all:hover {
     background-color: var(--title-menu);
 }
+
+@media screen and (min-width: 768px) {
+
+    .section__beaches {
+        padding: 2rem;
+    }
+}
