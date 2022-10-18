@@ -5,3 +5,7 @@ const menu = document.querySelector('.header__navbar')
 btnMenu.addEventListener('click', () => {
     menu.classList.toggle('header__navbar--ativo')
 })
+
+menu.addEventListener('click', () => {
+    menu.classList.remove('header__navbar--ativo')
+})

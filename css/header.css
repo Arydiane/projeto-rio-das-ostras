@@ -21,6 +21,7 @@
 .nav__list {
     background-color: var(--primary-color);
     color: var(--bg-color);
+    height: 100vh;
 }
 
 .nav__item {
