@@ -34,24 +34,4 @@ body {
     font-weight: 400;
     line-height: normal;
     height: 100vh;
-
-    display: grid;
-    grid-template-rows: 10% auto 10%;
-    grid-template-areas: 
-        "header"
-        "main"
-        "footer";
 }
-
-header {
-    grid-area: header;
-}
-
-main {
-    grid-area: main;
-}
-
-footer {
-    grid-area: footer;
-}
-
