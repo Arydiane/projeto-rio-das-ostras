@@ -35,3 +35,17 @@ body {
     line-height: normal;
     height: 100vh;
 }
+
+#back-to-top {
+    background-color: var(--title-menu);
+    border-radius: 100%;
+    border: 1px solid var(--title-menu);
+    box-shadow: 1px 1px 10px black;
+    color: var(--bg-color);
+    font-size: 0.7rem;
+    width: 4rem;
+    height: 4rem;
+    position: fixed;
+    bottom: 70px;
+    right: 25px;
+}

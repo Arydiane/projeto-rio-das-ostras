@@ -1,5 +1,6 @@
 import "./menu-hamburger.js";
 import "./toggle-theme.js";
+import "./back-top-top.js";
 
 const beachContainer = document.querySelector('.beaches__container')
 let beaches = []
