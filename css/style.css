@@ -36,6 +36,17 @@ body {
     height: 100vh;
 }
 
+body::-webkit-scrollbar {
+    width: 0.3rem;
+    border-radius: 0.5rem;
+    background-color: var(--bg-color);
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
 #back-to-top {
     background-color: var(--title-menu);
     border-radius: 100%;

@@ -25,6 +25,17 @@
     overflow-y: hidden;
 }
 
+.beaches__container::-webkit-scrollbar {
+    height: 1rem;
+    border-radius: 0.5rem;
+    background-color: #9ca3a854;
+}
+
+.beaches__container::-webkit-scrollbar-thumb{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+}
+
 .beach__container {
     height: 80%;
     width: auto;
@@ -55,9 +66,15 @@
     background-color: var(--title-menu);
 }
 
+
+
 @media screen and (min-width: 768px) {
 
     .section__beaches {
         padding: 2rem;
+    }
+
+    .beaches__container::-webkit-scrollbar {
+        height: 0.5rem;
     }
 }
