@@ -1,7 +1,7 @@
 .section__container {
     background-color: var(--primary-color);
     color: var(--bg-color);
-    padding: 0.5rem;
+    padding: 1rem;
     text-align: justify;
 }
 
