@@ -28,6 +28,7 @@ function renderBeach(beach) {
     beachImage.classList.add('beach__image')
     beachImage.src = `../images/${beach.imagem}`
     beachImage.alt = `Foto da ${beach.nome}`
+    beachImage.tabIndex = 0
     beachElement.appendChild(beachImage)
 
     const beachLegend = document.createElement('figcaption')
